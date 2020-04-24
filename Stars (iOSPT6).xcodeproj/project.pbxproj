@@ -13,6 +13,8 @@
 		CA27FCC824527A43009C2CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA27FCC624527A43009C2CE3 /* Main.storyboard */; };
 		CA27FCCA24527A44009C2CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA27FCC924527A44009C2CE3 /* Assets.xcassets */; };
 		CA27FCCD24527A44009C2CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA27FCCB24527A44009C2CE3 /* LaunchScreen.storyboard */; };
+		CA27FCD62452836D009C2CE3 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA27FCD52452836D009C2CE3 /* Star.swift */; };
+		CA27FCD9245284B3009C2CE3 /* StarsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA27FCD8245284B3009C2CE3 /* StarsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CA27FCC924527A44009C2CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA27FCCC24527A44009C2CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA27FCCE24527A44009C2CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA27FCD52452836D009C2CE3 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		CA27FCD8245284B3009C2CE3 /* StarsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,26 @@
 				CA27FCC924527A44009C2CE3 /* Assets.xcassets */,
 				CA27FCCB24527A44009C2CE3 /* LaunchScreen.storyboard */,
 				CA27FCCE24527A44009C2CE3 /* Info.plist */,
+				CA27FCD724528377009C2CE3 /* Model */,
+				CA27FCDA245284B8009C2CE3 /* Model Controller */,
 			);
 			path = "Stars (iOSPT6)";
+			sourceTree = "<group>";
+		};
+		CA27FCD724528377009C2CE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA27FCD52452836D009C2CE3 /* Star.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA27FCDA245284B8009C2CE3 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA27FCD8245284B3009C2CE3 /* StarsController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 				CA27FCC524527A43009C2CE3 /* StarsViewController.swift in Sources */,
 				CA27FCC124527A43009C2CE3 /* AppDelegate.swift in Sources */,
 				CA27FCC324527A43009C2CE3 /* SceneDelegate.swift in Sources */,
+				CA27FCD62452836D009C2CE3 /* Star.swift in Sources */,
+				CA27FCD9245284B3009C2CE3 /* StarsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
